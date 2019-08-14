@@ -1,0 +1,22 @@
+{
+  "name": "lemonade",
+  "version": "1.0.0",
+  "description": "my website for sba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubh17/Lemons.git"
+  },
+  "author": "shubh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubh17/Lemons/issues"
+  },
+  "homepage": "https://github.com/Shubh17/Lemons#readme",
+  "dependencies": {
+    "nodemailer": "^6.3.0"
+  }
+}
