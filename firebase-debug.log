@@ -1,0 +1,27 @@
+[debug] [2019-08-16T23:14:39.023Z] ----------------------------------------------------------------------
+[debug] [2019-08-16T23:14:39.025Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only functions
+[debug] [2019-08-16T23:14:39.025Z] CLI Version:   4.2.1
+[debug] [2019-08-16T23:14:39.025Z] Platform:      darwin
+[debug] [2019-08-16T23:14:39.025Z] Node Version:  v8.9.4
+[debug] [2019-08-16T23:14:39.026Z] Time:          Fri Aug 16 2019 19:14:39 GMT-0400 (EDT)
+[debug] [2019-08-16T23:14:39.026Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-16T23:14:39.037Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-16T23:14:39.037Z] > authorizing via signed-in user
+[debug] [2019-08-16T23:14:39.039Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/lemonade-690ad  
+ 
+[debug] [2019-08-16T23:14:39.497Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-16T23:14:39.498Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/lemonade-690ad  
+ 
+[debug] [2019-08-16T23:14:39.767Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Code/lemonade'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-08-16T23:14:40.519Z] Fetching environment
+[debug] [2019-08-16T23:14:40.521Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/411459389149:getServerAppConfig  
+ 
+[debug] [2019-08-16T23:14:40.808Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-16T23:14:40.808Z] Starting @google-cloud/functions-emulator
+[debug] [2019-08-16T23:14:42.898Z] Parsing function triggers
+[info] ✔  functions: sendMeCustomerEmail: http://localhost:5000/lemonade-690ad/us-central1/sendMeCustomerEmail
